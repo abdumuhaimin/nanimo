@@ -111,7 +111,7 @@
                             
                                 <!-- Start: Common Button -->
                                 <div class="common-buttons">
-                                    <ul><li><a href="" class="view-more"><i class="fa fa-caret-square-o-left"></i>Learn More</a></li></ul>
+                                    <ul><li><a href="#about" class="view-more"><i class="fa fa-caret-square-o-left"></i>Learn More</a></li></ul>
                                 </div>
                                 <!-- End: Common Button -->
             
@@ -138,7 +138,7 @@
                               
                                 <!-- Start: Common Button -->
                                 <div class="common-buttons">
-                                    <ul><li><a href="" class="view-more"><i class="fa fa-caret-square-o-left"></i>Learn More</a></li></ul>
+                                    <ul><li><a href="#services" class="view-more"><i class="fa fa-caret-square-o-left"></i>Learn More</a></li></ul>
                                 </div>
                                 <!-- End: Common Button -->
                                 
@@ -156,12 +156,12 @@
                     <div class="balck-solid blue-solid">
                     <div class="banner-mid-text">
                         <div class="container">
-                        	<h1>contact</h1>
+                        	<h1>Portfolio</h1>
                             <span>7 years of experience building products that suits your need!</span>
                               <div class="banner-bttn-sec">
                                 <!-- Start: Common Button -->
                                 <div class="common-buttons">
-                                    <ul><li><a href="" class="view-more"><i class="fa fa-caret-square-o-left"></i>Learn More</a></li></ul>
+                                    <ul><li><a href="#portfolio" class="view-more"><i class="fa fa-caret-square-o-left"></i>Learn More</a></li></ul>
                                 </div>
                                 <!-- End: Common Button -->
                         	</div>
@@ -559,10 +559,10 @@
         </div>
         <div class="client-logos">
             <div class="column">
-                <img style="display: inline; margin: 0 5px;" src="img/aes.jpg" style="width: 100%" />
+                <img style="display: inline; margin: 0 5px;" src="img/aes.png" style="width: 100%" />
             </div>
             <div class="column">
-                 <img style="display: inline; margin: 0 5px;" src="img/borcos.gif" style="width: 100%" />
+                 <img style="display: inline; margin: 0 5px;" src="img/borcos.png" style="width: 100%" />
             </div>
            <div class="column">
                 <img style="display: inline; margin: 0 5px;" src="img/cima.gif" style="width: 100%" />
@@ -571,10 +571,10 @@
             <img style="display: inline; margin: 0 5px;" src="img/iic.png" style="width: 100%" />
             </div>
             <div class="column">
-                <img style="display: inline; margin: 0 5px;" src="img/ktj.gif" style="width: 100%" />
+                <img style="display: inline; margin: 0 5px;" src="img/ktj.png" style="width: 100%" />
             </div>
             <div class="column">
-                <img style="display: inline; margin: 0 5px;" src="img/kyuem.jpg" style="width: 100%" />
+                <img style="display: inline; margin: 0 5px;" src="img/kyuem.png" style="width: 100%" />
             </div>
         </div>   
     </section>
@@ -600,17 +600,18 @@
             
                 <!-- Start: Quick Contact Area-->
                 <div class="quick-contact-box">
-                    <form method="post" name="contact">
+                    <form method="post" name="contact" action="reachus.php">
                         <div class="contact-form-details">
                             <ul class="form-cntnt" id="contact-form">
-                                <li class="col-md-4 contact-sub-bx"><input id="contact-name" class="text-field" name="Your Name" placeholder="Your Name"></li>
-                                <li class="col-md-4 contact-sub-bx"><input id="contact-email" class="text-field" name="Your Email" placeholder="Your Email"></li>
-                                <li class="col-md-4 contact-sub-bx"><input id="contact-web" class="text-field" name="Your Website" 
-                                	placeholder="Your Website"></li>
-                                <li class="col-md-12 contact-sub-bx"><textarea id="contact-msg" rows="4" cols="120" name="comment" 
+                                <li class="col-md-4 contact-sub-bx"><input id="contact-name" class="text-field" name="name" placeholder="Your Name"></li>
+                                <li class="col-md-4 contact-sub-bx"><input id="contact-email" class="text-field" name="email" placeholder="Your Email"></li>
+                                <li class="col-md-4 contact-sub-bx"><input id="contact-web" class="text-field" name="subject" 
+                                	placeholder="Subject"></li>
+                                <li class="col-md-12 contact-sub-bx"><textarea id="contact-msg" rows="4" cols="120" name="msg" 
                                 	placeholder="Your Message"></textarea></li>
-                                <li class="col-md-12 col-submit"><div class="common-buttons"><a id="contact-submit" href="" class="view-more">
-                                	<i class="fa fa-caret-square-o-left"></i>Submit Now</a></div>
+                                <li class="col-md-12 col-submit"><div class="common-buttons">
+                                	<i class="fa fa-caret-square-o-left"><input type="button" id="submit" name="submit" value="Submit" /></i>
+                                </div>
                                 </li>
                             </ul>
                          </div>
@@ -661,7 +662,7 @@
                 	<li><a href="#">About</a><span></span></li>
                     <li><a href="#">Terms</a><span></span></li>
                     <li><a href="#">Privacy</a><span></span></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
                 
                 <!-- Start: Social-Icons Sec -->
@@ -670,7 +671,6 @@
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
                 </ul>
                 <!-- End: Social-Icons Sec -->
 
@@ -706,7 +706,6 @@
     <script type="text/javascript" src="js/jquery.flexslider.js"></script><!-- Flexslider Js -->
     <script type="text/javascript" src="js/link-scroll.js"></script><!-- link-scroll -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script type="text/javascript" src="js/carousel.js"></script>
     <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
     <script type="text/javascript" src="js/settings.js"></script><!-- Settings Js -->
     <script type="text/javascript" src="js/forms.js"></script><!-- contact Form Js -->

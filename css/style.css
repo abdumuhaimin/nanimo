@@ -1149,6 +1149,9 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 }
 .client-logos img {
     width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    padding-bottom: 10px;
 }
 .portfolio-greet {
     margin:0 auto 55px;
