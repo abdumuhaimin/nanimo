@@ -1110,6 +1110,7 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 }
 .team-text h6 {
 	color:#000;
+    /*align the name */
     text-align: center;
 }
 .team-text span {
