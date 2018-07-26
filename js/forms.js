@@ -15,14 +15,14 @@
 //  ====================================================================
 
 
-(function() {
+(function () {
 	"use strict";
 	var contact_error = $('#contact-error');
 	var contact_success = $('#contact-success');
 	var contact_failed = $('#contact-failed');
 	var contact_loading = $('#contact-loading');
-	function validate_email(email) 
-	{
+	function validate_email(email)
+    {
 	   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 	   return reg.test(email);
 	}

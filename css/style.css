@@ -1173,12 +1173,8 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 }
 
 #portfolio img {
-    -webkit-filter : grayscale(1);
     display: block;
     margin: 0 auto;
-}
-#portfolio img:hover {
-    -webkit-filter: none;
 }
 /* contact-form Content Area */
 
