@@ -1110,6 +1110,7 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 }
 .team-text h6 {
 	color:#000;
+    text-align: center;
 }
 .team-text span {
     display: block;
@@ -1121,6 +1122,8 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 	margin:0 auto;
 	padding:0 0;
 	list-style:none;
+    display: flex;
+    justify-content: center;
 }
 .social-icons li {
 	padding:0 1.6px;
