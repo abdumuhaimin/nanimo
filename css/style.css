@@ -1069,6 +1069,8 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
     margin: 0 auto;
     padding: 0 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .team-box {
 	margin-top:60px;
@@ -1145,7 +1147,6 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 /* portfolio section */
 .client-logos {
     display: flex;
-    width: 300px;
 }
 .client-logos img {
     width: 200px;
@@ -1153,6 +1154,7 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
     object-fit: scale-down;
     padding-bottom: 10px;
 }
+/* portfolio */
 .portfolio-greet {
     margin:0 auto 55px;
 	padding:0 0;
@@ -1164,9 +1166,8 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 .column {
    flex: 50%;
     padding: 5px;
+    margin: 0 auto;
 }
-
-
 #portfolio {
     background-color: cadetblue;
 }
@@ -1200,6 +1201,17 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 	width:90%;
 	text-align:center;
 	line-height:32px;
+}
+.button {
+    background-color: #1080f2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
 }
 .form-cntnt {
 	margin:0 0;

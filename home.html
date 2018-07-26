@@ -78,7 +78,7 @@
             <!-- Start: Main Navigation -->
             <div class="trial-button">
                 <a href="#contact">Contact Us</a>
-            </div>  
+            </div>
             <!-- End: Main Navigation -->
 
             </nav>
@@ -591,7 +591,7 @@
             <div class="contact-form-details">
             	<h2>Contact Now</h2>
                 <hr>
-            	<p>We’re always happy to reply our customers. </p>
+            	<p>We’re always happy to keep in touch with our customers.</p>
             </div>
         	<!-- End: Contact Form Headder-->
         </div>                   
@@ -600,7 +600,7 @@
             
                 <!-- Start: Quick Contact Area-->
                 <div class="quick-contact-box">
-                    <form method="post" name="contact" action="reachus.php">
+                    <form method="POST" name="contact" action="contact_submit();">
                         <div class="contact-form-details">
                             <ul class="form-cntnt" id="contact-form">
                                 <li class="col-md-4 contact-sub-bx"><input id="contact-name" class="text-field" name="name" placeholder="Your Name"></li>
@@ -609,10 +609,7 @@
                                 	placeholder="Subject"></li>
                                 <li class="col-md-12 contact-sub-bx"><textarea id="contact-msg" rows="4" cols="120" name="msg" 
                                 	placeholder="Your Message"></textarea></li>
-                                <li class="col-md-12 col-submit"><div class="common-buttons">
-                                	<i class="fa fa-caret-square-o-left"><input type="button" id="submit" name="submit" value="Submit" /></i>
-                                </div>
-                                </li>
+                                    <input id="contact-submit" class="button" name="submit" type="button" value="Submit" />
                             </ul>
                          </div>
                     </form>
