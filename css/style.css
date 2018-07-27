@@ -1157,6 +1157,7 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
     height: 200px;
     object-fit: scale-down;
     padding-bottom: 10px;
+    overflow-x: hidden;
 }
 /* portfolio */
 .portfolio-greet {
