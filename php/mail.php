@@ -10,6 +10,7 @@ $mail->SMTPDebug = 2;
 $mail->Host = 'smtp.gmail.com'
 $mail->Port = 465;  
 $mail->SMTPAuth = true;
+$mail->SMTPSecure = 'ssl';
 
 //email username
 $mail->Username = 'abdumuhaimin.1@gmail.com';
