@@ -111,7 +111,7 @@
 			contact_loading.show();
 	
 			$.ajax({
-				url: 'php/reachus.php',
+				url: 'php/mail.php',
 				type: 'post',
 				cache: false,
 				data: {'name' : name_val, 'email' : email_val , 'website' : website_val , 'msg' : msg_val},
