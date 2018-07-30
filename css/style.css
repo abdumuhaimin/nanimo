@@ -1152,13 +1152,14 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 .client-logos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    display: inline-block;
 }
 .client-logos img {
     width: 200px;
     height: 200px;
     object-fit: scale-down;
     padding-bottom: 10px;
-    overflow-x: hidden;
 }
 /* portfolio */
 .portfolio-greet {
