@@ -1149,11 +1149,16 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 	background-color:#1080f2;
 }
 /* portfolio section */
-.client-logos {
-    display: flex;
-    flex-wrap: wrap;
+@media only screen and (max-width:760px) {
+    .client-logos {
+        display: flex;
+         flex-wrap: wrap;
     justify-content: center;
     display: inline-block;
+    }
+}
+.client-logos {
+    display: flex;
 }
 .client-logos img {
     width: 200px;
