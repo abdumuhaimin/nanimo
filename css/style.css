@@ -1733,7 +1733,7 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 }
 .main-nav {
 	margin-top:0;
-	text-align:center;
+	text-align:left;
 	width:100%;
 	display:none;
 	padding:0 0;
