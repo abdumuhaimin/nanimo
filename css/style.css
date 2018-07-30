@@ -1151,6 +1151,7 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 /* portfolio section */
 .client-logos {
     display: flex;
+    flex-wrap: wrap;
 }
 .client-logos img {
     width: 200px;
