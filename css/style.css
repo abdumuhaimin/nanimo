@@ -1149,22 +1149,23 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
 	background-color:#1080f2;
 }
 /* portfolio section */
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:700px) {
     .client-logos {
         display: flex;
-         flex-wrap: wrap;
-    justify-content: center;
-    display: inline-block;
+        flex-wrap: wrap;
+        max-width: 50%;
+        margin: 0 auto;
     }
 }
 .client-logos {
     display: flex;
 }
 .client-logos img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: scale-down;
     padding-bottom: 10px;
+    margin: 0 auto;
 }
 /* portfolio */
 .portfolio-greet {
