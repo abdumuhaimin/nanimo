@@ -1156,6 +1156,9 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
         max-width: 50%;
         margin: 0 auto;
     }
+    .client-logos img {
+        max-width: 75%;
+    }
 }
 .client-logos {
     display: flex;
@@ -1166,6 +1169,8 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
     object-fit: scale-down;
     padding-bottom: 10px;
     margin: 0 auto;
+    max-width: 65%;
+    float: left;
 }
 /* portfolio */
 .portfolio-greet {
