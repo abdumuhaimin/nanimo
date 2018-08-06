@@ -59,6 +59,7 @@ html, body {
 	font-size:16px;
 	color:#333333;
 	background:#FFF;
+    position: relative;
 }
 
 /* Link Styling */
@@ -1156,19 +1157,24 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
         max-width: 50%;
         margin: 0 auto;
     }
-    .client-logos img {
-        max-width: 75%;
-    }
+
+
 }
 .client-logos {
     display: flex;
 }
 .client-logos img {
-    width: 100%;
-    height: auto;
-    padding-bottom: 10px;
-    margin: 0 auto;
-    margin-left: 10px;
+  max-width:380px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+@media only screen and (max-width:760px) {
+    .client-logos img:nth-child(1){
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 /* portfolio */
 .portfolio-greet {
@@ -2129,3 +2135,77 @@ h1 {
 	width:62%;
 }
 }
+
+
+#cima-title {
+    float: left;
+    
+}
+
+.projects {
+    margin: 0 auto;
+    width: 600px;
+}
+
+
+.portolio-greet {
+    text-align: center;
+}
+
+.client-desc {
+    text-align: justify;
+    padding: 10px;
+}
+
+h3.client-title {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	th tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+}
+
+
