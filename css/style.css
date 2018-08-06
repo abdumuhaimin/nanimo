@@ -1170,10 +1170,8 @@ a.submit.mfp-close, a.submit.mfp-arrow:hover {
   height: auto;
 }
 @media only screen and (max-width:760px) {
-    .client-logos img:nth-child(1){
+    .client-logos img {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 /* portfolio */
