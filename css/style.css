@@ -280,7 +280,7 @@ hr.special {
 }
 .logo-cnt img {
     width: 100%;
-	max-width:165px;
+	max-width:200px;
 }
 .main-nav {
 	margin:0 auto;
@@ -2234,3 +2234,5 @@ and also iPads specifically.
     text-align: justify;
     margin-bottom: 50px;
 }
+
+
