@@ -2222,3 +2222,10 @@ and also iPads specifically.
     max-height: 100px;
     margin-top: 15px;
 }
+
+.portfolio-outer {
+    margin:0 auto;
+	padding:95px 0;
+	text-align:center;
+	width:100%;
+}
