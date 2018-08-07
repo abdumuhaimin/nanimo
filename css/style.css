@@ -60,6 +60,7 @@ html, body {
 	color:#333333;
 	background:#FFF;
     position: relative;
+    max-width: 100%;
 }
 
 /* Link Styling */
