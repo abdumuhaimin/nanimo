@@ -2229,3 +2229,8 @@ and also iPads specifically.
 	text-align:center;
 	width:100%;
 }
+
+.columns p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
